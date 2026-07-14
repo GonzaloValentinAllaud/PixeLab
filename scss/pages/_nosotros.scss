@@ -1,0 +1,51 @@
+.nosotros {
+    padding: 250px 100px;
+    background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-nosotros.webp");
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        color: $white-color;
+        font-size: 50px;
+    }
+
+    p {
+        color: $white-color;
+        font-size: 20px;
+    }
+}
+
+.historia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+
+    h2 {
+        font-size: 45px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    p {
+        display: block;
+        text-align: left;
+        font-size: 20px;
+        max-width: 640px;
+        line-height: 1.8;
+        margin: 0;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .historia-imagen {
+
+        img {
+            width: 70%;
+            height: auto;
+            margin: 0 0 0 90px;
+        }
+    }
+}

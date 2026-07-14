@@ -1,0 +1,26 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 8px;
+
+        &::before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900; // 900 = Solid (Classic)
+            content: "\f105"; // <- este es el código de angle-right
+            position: absolute;
+            left: 0;
+            color: rgb(56, 169, 255);
+        }
+    }
+}

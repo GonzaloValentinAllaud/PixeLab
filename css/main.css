@@ -1,0 +1,134 @@
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  padding: 10px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cards-container ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.cards-container li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+}
+.cards-container li::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f105";
+  position: absolute;
+  left: 0;
+  color: rgb(56, 169, 255);
+}
+
+.presentacion {
+  padding: 215px 100px;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-inicio.webp");
+  background-size: cover;
+  background-position: center;
+}
+.presentacion h1 {
+  color: #ffffff;
+  font-size: 100px;
+}
+.presentacion .pixelab {
+  color: #00f0ff;
+}
+.presentacion p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.resumen-servicios {
+  padding: 80px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.resumen-servicios h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.resumen-servicios p {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.resumen-servicios .mas-servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px auto 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #6c63ff;
+  border: 3px solid #00f0ff;
+  border-radius: 50px;
+  padding: 12px 32px;
+  text-decoration: none;
+}
+.resumen-servicios .mas-servicios:hover {
+  animation: services 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.nosotros {
+  padding: 250px 100px;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-nosotros.webp");
+  background-size: cover;
+  background-position: center;
+}
+.nosotros h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+.nosotros p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.historia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+}
+.historia h2 {
+  font-size: 45px;
+  text-align: left;
+  font-weight: bold;
+}
+.historia p {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  max-width: 640px;
+  line-height: 1.8;
+  margin: 0;
+}
+.historia p span {
+  font-weight: bold;
+}
+.historia .historia-imagen img {
+  width: 70%;
+  height: auto;
+  margin: 0 0 0 90px;
+}
+
+@keyframes services {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}/*# sourceMappingURL=main.css.map */
