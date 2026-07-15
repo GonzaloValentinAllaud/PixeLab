@@ -1,9 +1,22 @@
+.navbar {
+  --bs-navbar-color: inherit;
+}
+
 .navbar-nav {
   width: 100%;
   display: flex;
   justify-content: right;
-  gap: 20px;
+  gap: 50px;
   padding: 10px;
+  font-weight: bold;
+}
+.navbar-nav__logo {
+  display: inline-flex;
+  align-items: center;
+}
+.navbar-nav__logo img {
+  height: 50px;
+  width: auto;
 }
 
 .cards-container {
@@ -97,31 +110,50 @@
 }
 
 .historia {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 80px 100px;
 }
-.historia h2 {
+.historia .historia-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+.historia .historia-texto h2 {
   font-size: 45px;
-  text-align: left;
   font-weight: bold;
 }
-.historia p {
-  display: block;
-  text-align: left;
+.historia .historia-texto p {
   font-size: 20px;
-  max-width: 640px;
-  line-height: 1.8;
-  margin: 0;
+  padding: 20px 80px;
 }
-.historia p span {
+.historia .historia-texto p span {
   font-weight: bold;
 }
-.historia .historia-imagen img {
-  width: 70%;
-  height: auto;
-  margin: 0 0 0 90px;
+.historia .objetivos-generales {
+  align-items: center;
+  padding: 20px 80px;
+}
+.historia .objetivos-generales h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.historia .objetivos-generales ul {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.historia .objetivos-generales ul li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.historia .objetivos-generales ul li::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f058";
+  position: absolute;
+  left: 0;
+  color: rgb(0, 217, 0);
 }
 
 @keyframes services {

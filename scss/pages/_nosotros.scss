@@ -16,36 +16,59 @@
 }
 
 .historia {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 80px 100px;
 
-    h2 {
-        font-size: 45px;
-        text-align: left;
-        font-weight: bold;
-    }
 
-    p {
-        display: block;
-        text-align: left;
-        font-size: 20px;
-        max-width: 640px;
-        line-height: 1.8;
-        margin: 0;
+    .historia-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
 
-        span {
+        h2 {
+            font-size: 45px;
             font-weight: bold;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 20px 80px;
+
+            span {
+                font-weight: bold;
+            }
         }
     }
 
-    .historia-imagen {
+    .objetivos-generales {
 
-        img {
-            width: 70%;
-            height: auto;
-            margin: 0 0 0 90px;
+        align-items: center;
+        padding: 20px 80px;
+
+        h2 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding-top: 20px;
+            padding-left: 40px;
+            font-size: 20px;
+
+            li {
+                position: relative;
+                padding-left: 24px;
+                margin-bottom: 20px;
+
+                &::before {
+                    font-family: "Font Awesome 6 Free";
+                    content: "\f058";
+                    position: absolute;
+                    left: 0;
+                    color: rgb(0, 217, 0);
+                }
+            }
         }
     }
 }
