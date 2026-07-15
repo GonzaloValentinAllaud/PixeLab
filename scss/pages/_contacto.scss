@@ -1,0 +1,51 @@
+.contacto {
+    padding: 270px 100px;
+    background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-contacto.webp");
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        color: $white-color;
+        font-size: 50px;
+
+        span {
+            color: $tertiary-color;
+        }
+    }
+
+    p {
+        color: $white-color;
+        font-size: 20px;
+    }
+}
+
+.informacion-contacto {
+    padding: 80px 100px;
+
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    ul {
+            list-style: none;
+            padding-top: 20px;
+            padding-left: 40px;
+            font-size: 20px;
+
+            li {
+                position: relative;
+                padding-left: 24px;
+                margin-bottom: 20px;
+
+                i {
+                    height: 20px;
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    
+                }
+            }
+        }
+    }

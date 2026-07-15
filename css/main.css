@@ -94,6 +94,51 @@
   animation: services 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.servicios {
+  padding: 270px 100px;
+  background: url("../images/banner-servicios.webp");
+  background-size: cover;
+}
+.servicios h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+.servicios p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.informacion-servicios {
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.informacion-servicios h2 {
+  font-size: 45px;
+  font-weight: bold;
+  align-items: center;
+}
+.informacion-servicios p {
+  font-size: 20px;
+}
+
+.resultados {
+  padding: 80px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resultados h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.resultados p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .nosotros {
   padding: 250px 100px;
   background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-nosotros.webp");
@@ -125,6 +170,7 @@
 .historia .historia-texto p {
   font-size: 20px;
   padding: 20px 80px;
+  text-align: center;
 }
 .historia .historia-texto p span {
   font-weight: bold;
@@ -154,6 +200,50 @@
   position: absolute;
   left: 0;
   color: rgb(0, 217, 0);
+}
+
+.contacto {
+  padding: 270px 100px;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-contacto.webp");
+  background-size: cover;
+  background-position: center;
+}
+.contacto h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+.contacto h1 span {
+  color: #00f0ff;
+}
+.contacto p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.informacion-contacto {
+  padding: 80px 100px;
+}
+.informacion-contacto h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.informacion-contacto ul {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.informacion-contacto ul li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.informacion-contacto ul li i {
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 @keyframes services {
