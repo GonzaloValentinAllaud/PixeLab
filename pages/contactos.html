@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/main.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -45,14 +47,27 @@
         <p>Contanos tu proyecto, te respondemos en 24hs.</p>
     </section>
     <section class="informacion-contacto">
-        <h2>Envíanos un mensaje</h2>
-        <ul>
-            <li><i class="fa-brands fa-instagram" style="color: rgb(0, 0, 0);"></i>  fafas</li>
-            <li><i class="fa-brands fa-facebook" style="color: rgb(0, 0, 0);"></i>  fafas</li>
-            <li><i class="fa-brands fa-twitter" style="color: rgb(0, 0, 0);"></i>  fafas</li>
-            <li><i class="fa-brands fa-linkedin" style="color: rgb(0, 0, 0);"></i>  fafas</li>
-        </ul>
+        <div>
+            <h2>Mandanos un mail</h2>
+            <p>¡Escríbenos y te contactaremos lo antes posible!</p>
+        </div>
+        <div class="formulario-contacto">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">NOMBRE Y APELLIDO</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Gonzalo Allaud">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">EMAIL</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">INFO QUE QUIERAS COMPARTIRNOS</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Contanos sobre tu negocio, desafios actuales, o lo que consideres importante para recibir una propuesta de PixeLab"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
     </section>
+
 
 
 
@@ -60,4 +75,5 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

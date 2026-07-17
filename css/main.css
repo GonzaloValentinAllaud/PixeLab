@@ -227,23 +227,8 @@
   font-size: 35px;
   font-weight: bold;
 }
-.informacion-contacto ul {
-  list-style: none;
-  padding-top: 20px;
-  padding-left: 40px;
-  font-size: 20px;
-}
-.informacion-contacto ul li {
-  position: relative;
-  padding-left: 24px;
-  margin-bottom: 20px;
-}
-.informacion-contacto ul li i {
-  height: 20px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.informacion-contacto .formulario-contacto {
+  padding: 20px 200px 20px 0px;
 }
 
 @keyframes services {
