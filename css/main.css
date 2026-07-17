@@ -139,6 +139,66 @@
   margin-top: 20px;
 }
 
+.proyectos {
+  padding: 270px 100px;
+  background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-proyectos.webp");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyectos h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+.proyectos p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.informacion-proyectos {
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.informacion-proyectos h2 {
+  font-size: 45px;
+  font-weight: bold;
+  align-items: center;
+}
+.informacion-proyectos p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.informacion-proyectos .muestra-proyectos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding-top: 20px;
+}
+.informacion-proyectos .muestra-proyectos .card {
+  width: 18rem;
+  border: none;
+}
+.informacion-proyectos .muestra-proyectos .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.informacion-proyectos .muestra-proyectos .card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.25);
+}
+.informacion-proyectos .muestra-proyectos .card .card-body {
+  text-align: center;
+}
+.informacion-proyectos .muestra-proyectos .card .card-body p {
+  font-size: 16px;
+}
+
 .nosotros {
   padding: 250px 100px;
   background: linear-gradient(to right, rgb(0, 0, 0), transparent), url("../images/banner-nosotros.webp");
