@@ -1,0 +1,18 @@
+.mas-servicios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 24px auto 0;
+        font-size: 20px;
+        font-weight: 600;
+        color: $white-color;
+        background-color: $secondary-color;
+        border: 3px solid $tertiary-color;
+        border-radius: 50px;
+        padding: 12px 32px;
+        text-decoration: none;
+
+        &:hover {
+            animation: services 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+    }
